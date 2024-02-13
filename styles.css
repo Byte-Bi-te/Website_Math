@@ -1,6 +1,7 @@
 body, h1, h2, p {
     margin: 0;
     padding: 0;
+    margin-bottom: 10px;
 }
 
 body {
@@ -14,6 +15,12 @@ header {
     padding: 10px;
     background-color: #3197bd;
     color: #fff;
+}
+
+p {
+   word-wrap: break-word;
+   width: 800px;
+
 }
 
 nav {
