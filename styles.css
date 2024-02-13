@@ -20,7 +20,7 @@ header {
 p {
    word-wrap: break-word;
    width: 800px;
-
+   margin-bottom: 10px;
 }
 
 nav {
