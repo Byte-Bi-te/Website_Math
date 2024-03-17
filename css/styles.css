@@ -53,3 +53,13 @@ footer {
 .alg_mat01a {
   float: right;
 }
+
+.btn {
+  animation: cssAnimation_0 1008ms infinite ease-in-out;
+}
+
+@keyframes cssAnimation_0 {
+  to {
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+  }
+}
