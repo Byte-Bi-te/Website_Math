@@ -55,11 +55,11 @@ footer {
 }
 
 .btn {
-  animation: cssAnimation_0 1008ms infinite ease-in-out;
+  animation: cssAnimation_0 1000ms infinite ease-in-out;
 }
 
 @keyframes cssAnimation_0 {
   to {
-    transform: translate(0px, 0px) scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
   }
 }
