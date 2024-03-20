@@ -7,25 +7,34 @@ body, h1, h2, p {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #d9f1fa;
+    background-color: #fff;
+    min-height: 100vh;
 }
 
 header {
     text-align: center;
     padding: 10px;
     background-color: #3197bd;
+    border-bottom: 4px dashed #fff;
     color: #fff;
 }
 
-p {
-   word-wrap: break-word;
-   width: 800px;
-   margin-bottom: 10px;
+.menu {
+    width: 40%;
+    padding: 15px;
+    float: left;
+    border: 4px dashed #fff;
+    background-color: #d9f1fa;
+}
+
+.main_text {
+    padding: 15px;
+    border: 4px dashed #fff;
+    background-color: #d9f1fa;
 }
 
 nav {
     text-align: center;
-    margin: 10px 0;
 }
 
 nav a {
@@ -36,7 +45,8 @@ nav a {
 }
 
 main {
-    margin: 20px;
+    display: flex;
+    padding: 20px;
 }
 
 section {
@@ -48,18 +58,9 @@ footer {
     padding: 10px;
     background-color: #3197bd;
     color: #fff;
+    width: 100%;
 }
 
 .alg_mat01a {
-  float: right;
-}
-
-.btn {
-  animation: cssAnimation_0 1000ms infinite ease-in-out;
-}
-
-@keyframes cssAnimation_0 {
-  to {
-    transform: scale(1.1, 1.1);
-  }
+    float: right;
 }
