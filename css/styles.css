@@ -20,7 +20,8 @@ header {
 }
 
 .menu {
-    width: 40%;
+    margin: 15px;
+    width: 60%;
     padding: 15px;
     float: left;
     border: 4px dashed #fff;
@@ -28,6 +29,7 @@ header {
 }
 
 .main_text {
+    margin: 15px;
     padding: 15px;
     border: 4px dashed #fff;
     background-color: #d9f1fa;
@@ -61,6 +63,18 @@ footer {
     width: 100%;
 }
 
+video {
+    margin: 15px;
+    width: 95%;
+    padding: 15px;
+    border: 4px dashed #fff;
+    background-color: #d9f1fa;
+}
+
 .alg_mat01a {
-    
+  margin: 15px;
+  width: 70%;
+  padding: 15px;
+  border: 4px dashed #fff;
+  background-color: #d9f1fa;
 }
